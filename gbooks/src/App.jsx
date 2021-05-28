@@ -77,7 +77,7 @@ function App() {
           </InputGroup>
           <div className='d-flex text-white justify-content-center'>
             <FormGroup >
-              <Label for='maxResults'>MAXIMO</Label>
+              <Label for='maxResults'> * Listar  Titulos *</Label>
               <Input
                 type='number'
                 id='maxResults'
@@ -106,7 +106,6 @@ function App() {
         if (item.volumeInfo.imageLinks) {
           thumbnail = item.volumeInfo.imageLinks.thumbnail;
         }
-
         return (
           <div className='col-lg-4 mb-3' key={item.id}>
             <BookCard
