@@ -60,12 +60,12 @@ function App() {
           className='display-2 text-center text-white mb-3'
           style={{ zIndex: 2 }}
         >
-          Google Books
+          + Livros
         </h1>
         <div style={{ width: '60%', zIndex: 2 }}>
           <InputGroup size='lg' className='mb-3'>
             <Input
-              placeholder='Book Search'
+              placeholder='O que deseja ler?'
               value={query}
               onChange={e => setQuery(e.target.value)}
             />
@@ -77,7 +77,7 @@ function App() {
           </InputGroup>
           <div className='d-flex text-white justify-content-center'>
             <FormGroup >
-              <Label for='maxResults'>Max Results</Label>
+              <Label for='maxResults'>MAXIMO</Label>
               <Input
                 type='number'
                 id='maxResults'
@@ -86,16 +86,7 @@ function App() {
                 onChange={e => setMaxResults(e.target.value)}
               />
             </FormGroup>
-            <FormGroup className='ml-5'>
-              <Label for='startIndex'>Start Index</Label>
-              <Input
-                type='number'
-                id='startIndex'
-                placeholder='Start Index'
-                value={startIndex}
-                onChange={e => setStartIndex(e.target.value)}
-              />
-            </FormGroup>
+          
           </div>
         </div>
       </div>
