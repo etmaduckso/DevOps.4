@@ -9,7 +9,7 @@ const router = express.Router();
         res.status(200).send
         ({
             title: "SERVER LAKE - API", 
-            version: "0.0.1"
+            version: "0.0.2"
         });
 });
 /* const create = router.post('/', (req, res, next) =>
