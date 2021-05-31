@@ -2,20 +2,23 @@
  REPOSITÓRIO PARA EXPERIMENTAÇÃO DIRECIONADA 
  <P>
   DIRETORIO  1
+  <P> 
+  
+ JS-    <P>
+ React-  1
   <P>
- JS
- React
- Nod.js
-Axios
-VsCode
-Bootstrap
-Css
-Codebox.io
+ Nod.js-  1
+  <P>
+VsCode-  <P>
+Bootstrap-  <P>
+Css-  <P>
+Codebox.io-  <P>
+ NodeMon-  <P>
 
 <p>
 
 
- Diretrorio para DEV Pri-RCHLO
+ Diretrorio para DEV Pri-RCHLO  <P>
  Link: Desafio CArreira-DEV - RCHLO
  <p>
 https://youtu.be/hkYAH7JGcew
