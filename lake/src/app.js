@@ -16,10 +16,10 @@ const route = router.get('/', (req, res, next) => {
         });
 });
 
-const create = router.post('/', (resq, res, next) => {
+const create = router.post('/', (req, res, next) => {
       res.status(201).send(req.body);
       });
 app.use('/', route);
-app.use('/products, create');
+app.use('/products', create)
 
 module.exports = app;
